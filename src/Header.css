@@ -1,0 +1,286 @@
+
+.head-nav{
+   background-color: black;
+    color: blanchedalmond;
+    /* margin-top: -16px; */
+    height: 52px;
+}
+.nav{
+    width: 96%;
+    /* padding-top: 7px;  */
+    padding: 2px;
+}
+
+.nav ul{
+    display: flex;
+    position: relative;
+ 
+}
+
+.nav ul li{
+    list-style: none;
+    padding: 3px 21px;
+    font-size: 16px;
+    font-weight: 560;
+    font-family: Arial, Helvetica, sans-serif;
+      /* transition: all 1.4s ease;   */
+    cursor: pointer;
+}
+
+.nav ul li:last-child{
+    margin-right: 0;
+}
+
+.down{
+    position: absolute;
+    left: 10%;
+    top: 32px;
+    width: 1130px;
+    height: 330px;
+    box-sizing: border-box;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    transition: all 0.4s ease;
+    /* z-index: 10; */
+  
+}
+
+.nav ul li:hover .down{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.downs{
+    position: absolute;
+    left: 30%;
+    top: 32px;
+    width: 830px;
+    height: 270px;
+    box-sizing: border-box;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    transition: all 0.4s ease;
+     z-index: 10; 
+     display: inline-flex;
+  
+}
+
+ li:hover .downs{
+    visibility: visible;
+    opacity: 2;
+}
+
+
+
+
+.mega{
+    float: left;
+    margin-right: 1%;
+    margin: 2px 24px;
+    margin-left: 2%;
+}
+
+.mega:last-child{
+    margin-right: 0;
+}
+
+ .sent:hover{
+    border-bottom:5px solid #ee5f73;
+}
+
+.tent:hover{
+    border-bottom:5px solid #a25fee;
+}
+
+.ent:hover{
+    border-bottom:5px solid #e95fee;
+}
+
+.kent:hover{
+    border-bottom:5px solid #685fee;
+}
+
+.vent:hover{
+    border-bottom:5px solid #5fddee;
+}
+
+.bent:hover{
+    border-bottom:5px solid #5fee7e;
+}
+
+.sents:hover{
+    border-bottom:5px solid #eeab5f;
+}
+
+.snt:hover{
+    border-bottom:5px solid #bcee5f;
+}
+
+.st:hover{
+    border-bottom:5px solid #ee985f;
+}
+
+.bnt:hover{
+    border-bottom:5px solid orange;
+}
+
+.heading-1{
+    color: #ee5f73;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.heading-2{
+     color: #a25fee;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+}
+
+.heading-3{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #e95fee;
+}
+
+.heading-4{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #685fee;
+}
+
+.heading-5{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #5fddee;
+}
+
+.heading-6{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #5fee7e;
+}
+
+.heading-7{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #eeab5f;
+}
+
+.heading-8{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #bcee5f;
+}
+
+.heading-9{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #ee985f;
+}
+
+/* .heading-10{
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline; 
+    color: #17a168;
+} */
+
+.copy{
+    color: black;
+    font-weight: 700;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.copy a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.downs{
+    position: absolute;
+    left: 30%;
+    top: 32px;
+    width: 810px;
+    height: 270px;
+    box-sizing: border-box;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    transition: all 0.4s ease;
+     z-index: 10; 
+     display: inline-flex;
+  
+}
+
+ li:hover .downs{
+    visibility: visible;
+    opacity: 2;
+}
+
+.image{
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 0px 7px;
+}
+.image img{
+    width: 250px;
+}
+
+.naw{
+    color: orange;
+    margin-left: 30px;
+     margin-top: 3%;
+    font-size: 20px;
+}
+
+
+
+
+
+.naw a{
+    text-decoration: none;
+    color: orange;
+}
+
+.breaks{
+    color: black;
+   display: flex;
+   flex-direction: column;
+   padding-top: 50px;
+   margin-left: 15%;
+
+}
+
+
+
+.imge img{
+    width: 50px;
+}
+
+
+.mage{
+    margin-top: 50px;
+    margin-left: 35%;
+}
+
+.arrow{
+  margin-bottom: -3px;
+}
+
+
