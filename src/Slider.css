@@ -1,8 +1,13 @@
+.slid-im{
+    margin-top: 5%;
+    margin-left: 2%;
+    display: flex;
+}
+
 .carousel{
      display: inline-flex; 
-
-  justify-content: center; 
-   /* max-width: 90%; */
+   justify-content: center; 
+ 
 }
 
 
@@ -26,16 +31,10 @@
     object-fit: cover;
 }
 
-.slid-im{
-    margin-top: 2%;
-    margin-left: 2%;
-    display: flex;
-}
 
-.mui{
-    padding: 5px;
-}
-.rij{
+
+
+.side-img{
    padding-right: 56px;
    margin-left: 20px;
 }
@@ -43,16 +42,45 @@
  width: 350px;
 }
 
-.h{
+.crash{
+    padding: 5px;
+}
+
+.location{
     padding-right: 25px;
     position: fixed;
     right: 0;
-     
     bottom: 300px;
-    width: 29px;
+     width: 30px; 
+    
 }
 
 .symbols{
     color: orangered;
 }
+
+.smal{
+    font-weight: 600;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 3px;
+}
+
+.banner-one {
+    margin-left: 75px;
+}
+
+.banner-one img{
+    width: 90%;
+}
+
+
+.banner-two {
+    margin-left: 75px;
+     margin-top: 20px;
+  }
+  
+  .banner-two img{
+      width: 90%;
+  }
 
