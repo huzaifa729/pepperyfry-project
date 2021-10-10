@@ -1,0 +1,58 @@
+.carousel{
+     display: inline-flex; 
+
+  justify-content: center; 
+   /* max-width: 90%; */
+}
+
+
+
+.carousel .slide{
+    height: 60vh;
+
+
+}
+
+.carousel .slide img{
+    width: auto;
+    max-height: 100%; 
+
+}
+
+.imagees{
+  margin: 0 auto;  
+    height: 100%;
+     width: auto; 
+    object-fit: cover;
+}
+
+.slid-im{
+    margin-top: 2%;
+    margin-left: 2%;
+    display: flex;
+}
+
+.mui{
+    padding: 5px;
+}
+.rij{
+   padding-right: 56px;
+   margin-left: 20px;
+}
+.photo{
+ width: 350px;
+}
+
+.h{
+    padding-right: 25px;
+    position: fixed;
+    right: 0;
+     
+    bottom: 300px;
+    width: 29px;
+}
+
+.symbols{
+    color: orangered;
+}
+
