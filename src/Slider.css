@@ -50,9 +50,11 @@
     padding-right: 25px;
     position: fixed;
     right: 0;
-    bottom: 300px;
-     width: 30px; 
-    
+     bottom: 300px; 
+     width: 34px; 
+    background-color: whitesmoke;
+    border: 2px solid white;
+   
 }
 
 .symbols{
@@ -61,9 +63,10 @@
 
 .smal{
     font-weight: 600;
-    font-size: 15px;
-    align-items: center;
-    margin-left: 3px;
+    font-size: 14px;
+      text-align: center;
+      justify-content: center;
+    margin-left: 9px;
 }
 
 .banner-one {
@@ -84,3 +87,23 @@
       width: 90%;
   }
 
+
+
+  .oyl{
+      font-size: 19px;
+      font-weight: 560;
+      text-transform: uppercase;
+      margin-left: 40px;
+      margin-top: 15px;
+  }
+
+  .im-sli{
+      display: flex;
+      margin-top: 3px;
+      margin-left: 60px;
+  }
+
+  .bnk-slids img{
+      width: 200px;
+      object-fit: cover;
+  }

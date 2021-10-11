@@ -58,6 +58,40 @@ function Slider() {
          <img src="	https://ii1.pepperfry.com/media/wysiwyg/banners/Safe_Web2_2x_11062021.jpg"/>
           </div> 
           </div>
+
+
+
+          <div className="bank">
+              <span className="oyl">Bank offers</span>
+
+              <div className="im-sli">
+
+                   <div className="bnk-slids">
+                       <img src="https://ii1.pepperfry.com/media/wysiwyg/banners/Web_No_Cost_EMI16421_2x.png"/>
+                   </div>
+
+                   <div className="bnk-slids">
+                       <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Web_Bank_IDFC16421_2x.png"/>
+                   </div>
+
+                   <div className="bnk-slids">
+                       <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/Web_Bank_AMEX16721_2x.png"/>
+                   </div>
+
+                   <div className="bnk-slids">
+                       <img src="https://ii1.pepperfry.com/media/wysiwyg/banners/Web_Bank_ICICI_Festive_0122421_2x.png"/>
+                   </div>
+
+                   <div className="bnk-slids">
+                       <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Web_Bank_RBL16421_2x.png"/>
+                   </div>
+
+                   <div className="bnk-slids">
+                       <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/Web_Bank_ICICI_Festive_0222421_2x.png"/>
+                   </div>
+
+              </div>
+          </div>
  </div>
             
     )
