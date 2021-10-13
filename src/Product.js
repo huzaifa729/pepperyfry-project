@@ -7,17 +7,25 @@ function Product({img, title, price, image}) {
            <div className="product">
             <div className="info">
             <img className="im" src={img}/>
-             <p className="tit">{title}</p>  
+
+             <p className="tit"><b>Traits:</b>{title}</p>  
 
              <div className="price">
-                 <p>{price}</p>
+             {/* <bold>₹</bold> */}
+                 <p className="ruppes"><b>₹</b>{price}</p>
              </div>
 
              <div className="product-image">
                <img src={image}/>  
              </div>
+
+           
+             <button className="btns">Cart</button>
+           
         </div>  
-        
+  
+                
+         
          
         </div> 
        

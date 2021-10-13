@@ -11,7 +11,7 @@ function Navbar() {
       
          <div className="header">
              <div className="logo">
-                <img className="img" src="https://ii1.pepperfry.com/images/svg/pf-logo-jan18.svg?v=1"/>
+                <img className="img" src="https://ii1.pepperfry.com/images/svg/pf-logo-jan18.svg?v=1" alt="/" />
              </div>
 
              <div className="search-box">
