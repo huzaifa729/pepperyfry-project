@@ -7,9 +7,10 @@ function Home() {
            <div className="home-row">
               <Product
               img="https://ii1.pepperfry.com/media/wysiwyg/banners/hp-brand-logo-woodsworth_2x_15012021.png"
-              title=" Contemporary, Clean, Functional"
+                 title=" Contemporary, Clean, Functional"
               price={5212}
               image="https://ii2.pepperfry.com/media/wysiwyg/banners/Bs_web_10082021_1.jpg"
+           
               /> 
 
             <Product

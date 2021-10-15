@@ -1,0 +1,58 @@
+
+
+.inform{
+margin-left: 12%;
+display: flex;
+flex-direction: column;
+margin-top: 45px;
+}
+
+.ofs{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.grey{
+    color: grey;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.flex{
+    display: inline-flex;
+    margin-left: 10%;
+}
+
+.dex{
+    margin: 1px 15px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+
+
+.dex img{
+    width: 280px;
+    height: auto;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.one{
+    /* text-align: center; */
+    font-weight: 570;
+    font-size: 15px;
+}
+
+.two{
+    color: grey;
+    font-size: 15px;
+    /* text-align: center; */
+}

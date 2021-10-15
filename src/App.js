@@ -6,6 +6,7 @@ import Header from './Header'
 import Slider from './Slider'
 import Home from './Home'
 import Carousel from './Carousel'
+import Photo from './Photo'
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
         <Slider/>
         <Home/>
         <Carousel/>
+         <Photo/>
     </div>
   )
 }

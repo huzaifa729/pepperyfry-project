@@ -39,7 +39,7 @@ export class Carousel extends Component {
         <img  src="	https://ii3.pepperfry.com/media/wysiwyg/banners/Ca_web_14092021_6.jpg"alt='any'/>
     </div>
   
-</OwlCarousel>;
+</OwlCarousel>
   </div>  
 
   </div>  
