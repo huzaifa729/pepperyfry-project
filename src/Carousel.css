@@ -1,0 +1,32 @@
+.item{
+ margin-top: 50px;
+margin-left: 40px;
+ z-index: 4;
+ transition: transform 1.2s;
+/* max-width: 50%; */
+
+}
+
+ .container-fluid{
+max-width: 94%;
+margin-top: 60px;
+} 
+
+.item:hover {
+transform: scale(1.1); 
+      }
+
+.item img{
+width: 150px;
+z-index: 50;
+}
+
+
+.headinges{
+margin-left: 50px;
+margin-top: 40px;
+}
+
+.span{
+color: gray;
+}

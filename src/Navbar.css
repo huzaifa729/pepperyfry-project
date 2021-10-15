@@ -12,11 +12,12 @@
 
 .logo{
     margin-left: 8%;
-    padding-top: 7px;
+    padding-top: 10px;
     cursor: progress;
 }
 .img{
    width: 180px;
+   background-color: red;
 }
 
 .search-box{

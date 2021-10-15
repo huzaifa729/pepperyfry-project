@@ -5,6 +5,7 @@ import Navbar from './Navbar'
 import Header from './Header'
 import Slider from './Slider'
 import Home from './Home'
+import Carousel from './Carousel'
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
         <Header/>
         <Slider/>
         <Home/>
+        <Carousel/>
     </div>
   )
 }

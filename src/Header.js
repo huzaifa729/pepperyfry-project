@@ -581,7 +581,7 @@ function Header() {
 
                         <div className="megas">
                             <div className="mage">
-                       <span className="imge"><img src="https://ii3.pepperfry.com/media/wysiwyg/banners/solid-orange-circular-white-arrow.png"/></span> 
+                       <span className="imge"><img src="https://ii3.pepperfry.com/media/wysiwyg/banners/solid-orange-circular-white-arrow.png"  alt="imge"/></span> 
                      </div>
                    </div>
                     </div>

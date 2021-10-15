@@ -1,6 +1,6 @@
 import React from 'react'
 import './Slider.css'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 function Slider() {
@@ -9,7 +9,7 @@ function Slider() {
         <div className="slid-im">
             <Carousel infiniteLoop autoPlay >
               <div className="imagees">
-            <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Promo_71021_ET.jpg" alt="/" /> 
+            <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/Promo_71021_ET.jpg" alt="veer"/> 
          </div>  
 
          <div className="imagees">
