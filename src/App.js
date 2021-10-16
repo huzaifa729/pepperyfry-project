@@ -7,6 +7,7 @@ import Slider from './Slider'
 import Home from './Home'
 import Carousel from './Carousel'
 import Photo from './Photo'
+import Slick from './Slick'
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
         <Home/>
         <Carousel/>
          <Photo/>
+         <Slick/>
     </div>
   )
 }
