@@ -1,0 +1,72 @@
+
+
+.done{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+
+.tick{
+    font-size: 24px;
+    text-decoration: underline;
+     font-style: italic;
+}
+
+
+.bnk img{
+    width: 100px;
+}
+
+.bnk{
+    margin-left: 20px;
+}
+
+.footer{
+   margin-left: 8%;
+   margin-top: 8%;
+   display: flex;
+}
+
+.row{
+    /* padding: 2px 31px;
+    margin: 3px 6px; */
+    margin-left: 8%;
+    justify-content: space-around;
+}
+
+.h4{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.row li{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.pam{
+    color: red;
+}
+
+
+.re-again{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+   /* max-width: 90%; */
+ 
+}
+
+.duy{
+margin: 2px 103px; 
+}
+
+.topper{
+    margin: 4px 2px;
+     display: flex; 
+    flex-direction: column;  
+  
+}

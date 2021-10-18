@@ -8,6 +8,8 @@ import Home from './Home'
 import Carousel from './Carousel'
 import Photo from './Photo'
 import Slick from './Slick'
+import End from './End'
+import Footer from './Footer'
 function App() {
   return (
     <div>
@@ -19,6 +21,8 @@ function App() {
         <Carousel/>
          <Photo/>
          <Slick/>
+         <End/>
+         <Footer/>
     </div>
   )
 }
