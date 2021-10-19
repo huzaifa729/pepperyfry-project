@@ -5,13 +5,15 @@ import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
-
+import { Link } from 'react-router-dom';
 function Navbar() {
     return (
       
          <div className="header">
              <div className="logo">
+                 <Link to="/">
                 <img className="img" src="https://ii1.pepperfry.com/images/pf-logo-web-navaratri-2021-2X.gif" alt="/" />
+             </Link>
              </div>
 
              <div className="search-box">
@@ -21,10 +23,12 @@ function Navbar() {
              </div>
 
                  <div className="head">
-
+       
+                 <Link to="/login">
                   <div className="button">
                    <button className="btn">Login</button>
                   </div>
+                  </Link>
 
                      <div className="option">
                       <LocalShippingIcon fontSize="medium" className="icos"/>

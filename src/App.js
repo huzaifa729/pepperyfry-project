@@ -10,11 +10,26 @@ import Photo from './Photo'
 import Slick from './Slick'
 import End from './End'
 import Footer from './Footer'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+ 
+} from "react-router-dom";
+import Login from './Login'
 function App() {
   return (
+    <Router>
     <div>
        {/* <p>gvyhgyhyg</p> */}
+       <Switch>
+       <Route path="/login">
        <Navbar/>
+       <Login/>
+       </Route>
+
+       <Route path="/">
+    <Navbar />
         <Header/>
         <Slider/>
         <Home/>
@@ -23,7 +38,11 @@ function App() {
          <Slick/>
          <End/>
          <Footer/>
+         </Route>
+         </Switch>
+
     </div>
+    </Router>
   )
 }
 

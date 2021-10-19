@@ -11,7 +11,7 @@ function Footer() {
             <div className="footer">
                 <div className="row">
                     <div className="bnk">
-                   <a href=""><img src="https://ii3.pepperfry.com/images/pflogo_footer_new.png" alt="vb"/></a>
+                   <a href="/"><img src="https://ii3.pepperfry.com/images/pflogo_footer_new.png" alt="vb"/></a>
                    </div>
                    <ul>
                    <li><a href="/">About Us</a></li>
@@ -124,7 +124,12 @@ function Footer() {
                   </div>
                 </div>
             </div>
-        </div>
+
+
+  </div>
+
+    
+
     )
 }
 

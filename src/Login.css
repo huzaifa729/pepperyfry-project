@@ -1,0 +1,30 @@
+.Login-page{
+  margin-top: 30px;
+}
+
+.form{
+    display: flex;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+}
+
+.modal img{
+  max-width: 100%;
+    object-fit: contain;
+
+ 
+
+}
+
+.modal{
+    display: inherit;
+    margin-left: 1px;
+}
+
+
+.dan{
+    margin-left: 40px;
+}
