@@ -6,15 +6,15 @@
     display: flex;
     box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.4);
     background-color: white;
-    width: 650px;
-    height: 450px;
+    width: 690px;
+    height: 490px;
     margin: auto;
 }
 
 .modal img{
-  max-width: 100%;
+  /* max-width: 100%; */
     object-fit: contain;
-
+  width: 100%;
  
 
 }
@@ -26,5 +26,128 @@
 
 
 .dan{
-    margin-left: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+
+
+.jiop{
+  position: relative;
+  border-bottom: 1px solid black;
+  margin-top: 35px;
+  width: 100%;
+}
+
+
+.jiop input{
+     border: none;
+     outline: none;
+     background: none;
+     width: 100%;
+     height: 20px;
+}
+
+.jiop label{
+  position: absolute;
+  pointer-events: none;
+  transition: all 0.8s ease;
+  top: 30%;
+  transform: translateY(-70%);
+  color: gray;
+}
+
+
+
+.jiop input:focus~label,
+.jiop input:valid~label{
+  top: -5px;
+}
+
+.jiop span::before{
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: red;
+  transition: all 0.7s ease;
+}
+
+.jiop input:focus~span::before,
+.jiop input:valid~span::before{
+   width: 100%;
+}
+
+
+
+.botn{
+   margin-top: 20px; 
+
+}
+
+
+.btnse{
+ height: 30px; 
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.idea{
+  margin-top: 30px;
+}
+
+.mean{
+  font-size: 13px;
+}
+
+.class{
+  margin-left: 3px;
+  text-decoration: underline;
+
+color: black;
+font-weight: bolder;
+}
+
+
+.dubs{
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttonse{
+  border: 1px solid #d8d8d8;
+  width: 250px;
+  height: 40px;
+  color: orangered;
+  font-family: 16px;
+}
+
+.fini{
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+.op{
+  color: gray;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.cont img{
+  width: 40px;
+  object-fit: contain;
+}
+
+.cont{
+  display: inherit;
+  margin: 2px 5px;
 }
