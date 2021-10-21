@@ -1,5 +1,9 @@
 import React from 'react'
 import './Footer.css'
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 function Footer() {
     return (
         <div className="foot">
@@ -125,7 +129,52 @@ function Footer() {
                 </div>
             </div>
 
+               <div className="bad">
+                   <div className="all">
+                   <div className="yty">
+                       We Accept
+                   </div>
+                   <div className="maf">
+                   <a href="/"><img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-visa.png" alt="u"/></a>
 
+                   <a href="/"><img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-rupay.png" alt="u"/></a>
+                    
+                    <a href="/"><img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-paypal.png" alt="u"/></a>
+
+                    <a href="/"><img src="https://constant.myntassets.com/checkout/assets/img/footer-bank-mc.png" alt="u"/></a>
+                    </div>
+                    </div>
+
+
+                    <div className="damp">
+                        <div className="sete">
+                        DOWNLOAD OUR APP
+                        </div>
+
+                        <div className="derts">
+                            <div className="blink-one">
+                      <a href="/"><img src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp" alt="u"/></a>
+                            </div>
+
+                            <div className="blink-two">
+                     <a href="/"><img src="	https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty" alt="u"/></a>      
+                        </div>
+                        </div>
+                    </div>
+
+                    <div className="again">
+                        <div className="ready">
+                            FOLLOW US
+                        </div>
+
+                        <div className="follow">
+                            <a href="/"><InstagramIcon className="insta" fontSize="large"/></a>
+                            <a href="/"><TwitterIcon className="twitt" fontSize="large"/></a>
+                            <a href="/"><PinterestIcon className="pinters" fontSize="large"/></a>
+                            <a href="/"><YouTubeIcon className="youtube" fontSize="large"/></a>
+                        </div>
+                    </div>
+        </div>
   </div>
 
     

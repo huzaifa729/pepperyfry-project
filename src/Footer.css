@@ -89,7 +89,101 @@ margin: 2px 103px;
     margin-left: 3%;
 }
 
-.dif{
+/* .dif{
     display: inline-flex;
+} */
+
+.bad{
+    display: flex;
+    margin-top: 50px;
 }
 
+.all{
+    margin-left: 5%;
+}
+
+.maf img{
+    width: 100px;
+    object-fit: contain;
+}
+
+
+
+.yty{
+   margin-left: 0px;
+}
+
+
+.damp{
+    margin-left: 10%;
+}
+
+
+.sete{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.derts{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.blink-one img{
+    width: 150px;
+    object-fit: contain;
+}
+
+.blink-two{
+    margin-left: 4px;
+}
+
+.blink-two img{
+    width: 150px;
+    object-fit: contain;
+}
+
+
+
+.again{
+    margin-left: 7%;
+}
+
+.ready{
+    font-weight: 600;
+   font-family: sans-serif;
+}
+
+.follow{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.insta{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, purple);
+  color: white;
+  border-radius: 5px;
+}
+
+.twitt{
+    background-color: rgb(0, 140, 255);
+    color: white;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.pinters{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+
+
+.youtube{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    margin-left: 9px;
+}
