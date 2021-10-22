@@ -45,6 +45,7 @@
 .row li{
     font-family: sans-serif;
     font-size: 15px;
+    list-style: none;
 }
 
 .pam{

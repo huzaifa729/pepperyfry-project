@@ -58,7 +58,7 @@ function End() {
                         <div className="duk">
                            <a href="/"><img src="https://ii2.pepperfry.com/media/wysiwyg/banners/home-store-furniture-20198.jpg" alt="no" /></a>
                         </div>
-                        <div className="row">
+                        <div className="rows">
                             <ul>
                                 <span className="ay">FURNITURE</span>
                                 <li><a href="/">Sofas</a></li>
@@ -78,7 +78,7 @@ function End() {
                             <div className="duk">
                               <a href="/">  <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/home-store-decor-20198.jpg" alt="no" /></a>
                             </div>
-                      <div className="row">
+                      <div className="rows">
                                  <ul>
                                     <span className="ay">HOME DECOR</span>
                                     <li><a href="/">Wall Acents</a></li>
@@ -97,7 +97,7 @@ function End() {
                             <div className="duk">
                               <a href="/">  <img src="https://ii1.pepperfry.com/media/wysiwyg/banners/home-store-furnishings-2020.jpg" alt="no" /></a>
                             </div>
-                            <div className="row">
+                            <div className="rows">
                                     <ul>
                                     <span className="ay">FURNISHINGS</span>
                                     <li><a href="/">Bed Linen</a></li>
@@ -120,7 +120,7 @@ function End() {
                             <div className="duk">
                               <a href="/"> <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/home-store-kids-20198.jpg" alt="no" /></a>
                             </div>
-                     <div className="row">
+                     <div className="rows">
                                  <ul>
                                     <span className="ay">KIDS ROOM</span>
                                     <li><a href="/">Beds</a></li>
@@ -139,7 +139,7 @@ function End() {
                             <div className="duk">
                               <a href="/"> <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/home-store-lamps-20198.jpg" alt="no" /></a>
                             </div>
-                            <div className="row">
+                            <div className="rows">
                                   <ul>
                                     <span className="ay">LAMPS & LGHTS</span>
                                     <li><a href="/">Lamps</a></li>
@@ -157,7 +157,7 @@ function End() {
                         <div className="duk">
                            <a href="/"><img src="https://ii1.pepperfry.com/media/wysiwyg/banners/home-store-mattresses-2020.jpg" alt="no" /></a>
                         </div>
-                        <div className="row">
+                        <div className="rows">
                               <ul>
                                 <span className="ay">MATTRESSES</span>
                                 <li><a href="/">Mattresses</a></li>
