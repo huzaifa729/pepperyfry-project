@@ -43,7 +43,7 @@ function Slider() {
 
                 <div className="location">
             <span className="symbols"><LocationOnIcon fontSize="large"/></span>
- <span className="smal">Find your Nearest studio</span>
+ <span className="smal">Find  Nearest studio</span>
 </div>
 </div>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-function Header() {
+function Header() { 
     return (
         <div className="head-nav">
             <div className="nav">

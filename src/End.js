@@ -73,7 +73,7 @@ function End() {
                     </div>
 
 
-                    <div className="again">
+                    <div className="aagain">
                         <div className="bun">
                             <div className="duk">
                               <a href="/">  <img src="https://ii3.pepperfry.com/media/wysiwyg/banners/home-store-decor-20198.jpg" alt="no" /></a>
@@ -115,7 +115,7 @@ function End() {
 
 
 
-                    <div className="again">
+                    <div className="aagain">
                         <div className="bun">
                             <div className="duk">
                               <a href="/"> <img src="https://ii2.pepperfry.com/media/wysiwyg/banners/home-store-kids-20198.jpg" alt="no" /></a>

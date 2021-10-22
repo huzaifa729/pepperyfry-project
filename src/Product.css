@@ -44,10 +44,12 @@
     color: #3333cc;
 }
 
-
+.buttos{
+    cursor: pointer;
+}
 
 .btns{
-    background-color: red;
+    background-color: rgb(153, 0, 255);
     margin-top: 14px;
     margin-left: 20px;
     border-radius: 5px;

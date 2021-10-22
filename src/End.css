@@ -1,12 +1,13 @@
 .photose{
     margin-top: 40px;
+ 
 }
 
 
 .dui{
    display: flex;
    flex-direction: column;
-   margin-left: 3%;
+   margin-left: 2%;
 }
 
 .pen{
@@ -21,7 +22,7 @@
 
  .split{
     display: inline-flex;
-    margin-left: 4%;
+    margin-left: 2%;
     margin-top: 20px;
     max-width: 90%;
 } 
@@ -39,8 +40,8 @@
 .bind{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
+     text-align: center;
+    justify-content: center; 
 
 }
 
@@ -65,12 +66,12 @@
 
 .imagine{
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 60px;
     display: flex;
 }
 
 .duk{
-    margin-left: 10px;
+    margin-left: 5px;
    margin-top: 10px;
    transition: transform 1.2s;
 
@@ -100,7 +101,7 @@
     font-family: sans-serif;
    text-decoration: underline;
     margin-top: 10px;
-    font-family: 18px;
+   font-size: 15px;
 }
 
 .row li{
@@ -116,9 +117,9 @@ a{
 }
 
 
-.again{
+.aagain{
     /* display: flex; */
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 /* .min img{
@@ -127,5 +128,4 @@ a{
 
 .bun{
     display: flex;
-    
 }

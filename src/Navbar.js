@@ -14,7 +14,7 @@ function Navbar() {
                  <Link to="/">
                 <img className="img" src="https://ii1.pepperfry.com/images/pf-logo-web-navaratri-2021-2X.gif" alt="/" />
              </Link>
-             </div>
+             </div> 
 
              <div className="search-box">
                  {/* <input className="searchs" type="" placeholder="Search"/> */}
@@ -45,10 +45,10 @@ function Navbar() {
                       <span className="one">Cart</span>
                      </div>
 
-                     <div className="option">
+                     {/* <div className="option">
                       <AccountCircleSharpIcon fontSize="medium" className="icos"/>
                       <span className="one">Profile</span>
-                     </div>
+                     </div> */}
                  </div>
 
                

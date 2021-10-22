@@ -16,12 +16,15 @@ function Product({img, title, price, image}) {
              </div>
 
              <div className="product-image">
-               <img src={image} alt=""/>  
+               <a href="no/"><img src={image} alt=""/> </a>
              </div>
 
-           
-             <button className="btns">Cart</button>
-           
+             <div className="buttos">
+            <a href="/">
+              <button className="btns">View All</button>
+              </a>
+              </div>
+
         </div>  
   
                 

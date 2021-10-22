@@ -15,9 +15,7 @@
 .nav{
      /* width: 95%;   */
     /* padding-top: 7px;  */
-    padding: 2px;
-   
-  
+       padding: 2px;
 }
 
 .nav ul{
@@ -188,7 +186,8 @@
 .copy{
     color: black;
     font-weight: 700;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:normal;
+     font-size: 15px; 
 }
 
 .copy a{
