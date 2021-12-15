@@ -27,10 +27,7 @@ function Product({img, title, price, image}) {
 
         </div>  
   
-                
-         
-         
-        </div> 
+</div> 
        
     )
 }

@@ -34,9 +34,9 @@
     cursor: pointer;
 }
 
-.nav ul li:last-child{
+ .nav ul li:last-child{
     margin-right: 0;
-}
+} 
 
 .down{
     position: absolute;
@@ -69,9 +69,9 @@
     margin-left: 2%;
 }
 
-.mega:last-child{
+ .mega:last-child{
     margin-right: 0;
-}
+} 
 
  .sent:hover{
     border-bottom:5px solid #ee5f73;
@@ -269,3 +269,9 @@ z-index: 6;
 }
 
 
+@media  screen and (max-width:1000px){
+    .nav ul{
+       flex-direction: column;
+       display: flex;
+}
+}
