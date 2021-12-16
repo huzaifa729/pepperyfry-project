@@ -21,7 +21,7 @@ function Product({img, title, price, image}) {
 
              <div className="buttos">
             <a href="/">
-              <button className="btns">View All</button>
+              <button className="btns">Add To Cart</button>
               </a>
               </div>
 

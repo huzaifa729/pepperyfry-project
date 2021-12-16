@@ -43,11 +43,12 @@ function Navbar() {
                       <span className="one">Wishlist</span>
                      </div>
 
+                     <Link to="/checkout">
                      <div className="option">
-                      <ShoppingCartOutlinedIcon fontSize="medium"  className="icos"/>
+                       <ShoppingCartOutlinedIcon fontSize="medium"  className="icos"/>
                       <span className="one">Cart</span>
-                     </div>
-
+                      </div>
+                     </Link>
                      {/* <div className="option">
                       <AccountCircleSharpIcon fontSize="medium" className="icos"/>
                       <span className="one">Profile</span>

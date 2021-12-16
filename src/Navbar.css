@@ -90,11 +90,26 @@
     flex-direction: column;
    margin: 3px 22px;
    padding-left: 10px;
+  
 }
 
-/* .icos{
+ .icos{
    margin-left: 3px;
-} */
+   color: white;
+   
+} 
+
+.one{
+    color: white;
+
+}
+
+
+.option Link{
+    margin-top: 10px;
+}
+
+
 
 
 

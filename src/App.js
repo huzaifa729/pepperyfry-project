@@ -17,6 +17,7 @@ import {
  
 } from "react-router-dom";
 import Login from './Login'
+import Checkout from './Checkout'
 function App() {
   return (
     <Router>
@@ -26,6 +27,11 @@ function App() {
        <Route path="/login">
        <Navbar/>
        <Login/>
+       </Route>
+
+       <Route path="/checkout">
+       <Navbar/>
+       <Checkout/>
        </Route>
 
        <Route path="/">
