@@ -6,6 +6,7 @@ function Home() {
         <div className="home">
            <div className="home-row">
               <Product
+              id="01"
               img="https://ii1.pepperfry.com/media/wysiwyg/banners/hp-brand-logo-woodsworth_2x_15012021.png"
                  title=" Contemporary, Clean, Functional"
               price={5212}
@@ -14,6 +15,7 @@ function Home() {
               /> 
 
             <Product
+              id="02"
               img="https://ii3.pepperfry.com/media/wysiwyg/banners/hp-brand-logo-casacraft_2x_15012021.png"
               title=" Trendy, Comfortable, Vibrant"
               price={2500}
@@ -22,6 +24,7 @@ function Home() {
 
 
             <Product
+              id="03"
               img="https://ii2.pepperfry.com/media/wysiwyg/banners/hp-brand-logo-mudramark_2x_15012021.png"
               title=" Ethnic, Indian Carvings, Impeccable Crafting"
               price={5040}
@@ -31,6 +34,7 @@ function Home() {
 
  <div className="home-row">
               <Product
+                id="04"
               img="	https://ii1.pepperfry.com/media/wysiwyg/banners/hp-brand-logo-mintwud_2x_15012021.png"
               title=" Modern, Functional, Affordable"
               price={3500}
@@ -38,6 +42,7 @@ function Home() {
               /> 
 
             <Product
+              id="05"
               img="https://ii3.pepperfry.com/media/wysiwyg/banners/hp-brand-logo-amberville_2x_15012021.png"
               title=" Gracious Living, Colonial Style, Curved Lines"
               price={1590}
@@ -46,6 +51,7 @@ function Home() {
 
 
             <Product
+              id="06"
               img="	https://ii2.pepperfry.com/media/wysiwyg/banners/hp-brand-logo-bohemiana_2x_15012021.png"
               title=" Hand-Crafted, Free-Spirited , Adventurous"
               price={1980}
