@@ -6,7 +6,9 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 // import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 import { Link } from 'react-router-dom';
+import {useStateValue} from './StateProvider'
 function Navbar() {
+ const [{cart}, dispatch] = useStateValue();
     return (
       
          <div className="header">
@@ -43,19 +45,20 @@ function Navbar() {
                       <span className="one">Wishlist</span>
                      </div>
 
-                     <Link to="/checkout">
-                     <div className="option">
-                       <ShoppingCartOutlinedIcon fontSize="medium"  className="icos"/>
-                      <span className="one">Cart</span>
-                      </div>
-                     </Link>
+                 
                      {/* <div className="option">
                       <AccountCircleSharpIcon fontSize="medium" className="icos"/>
                       <span className="one">Profile</span>
                      </div> */}
                  </div>
 
-               
+                 <Link to="/checkout">
+                     <div className="option">
+                       <ShoppingCartOutlinedIcon fontSize="medium"  className="icos"/>
+                      <span className="one">Cart{cart?.length}</span>
+                      </div>
+                     </Link>
+
          </div>
          
 

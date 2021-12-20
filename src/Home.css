@@ -1,4 +1,4 @@
-  .home-row{
+  /* .home-row{
     display: flex;
   z-index: -1;
 }
@@ -7,4 +7,34 @@
     display: flex;
     flex-direction: column;
    padding-top: 10px;
-}  
+}   */
+
+.home{
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100;
+}
+
+.home--container{
+  height: 500px;
+  width: 100%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* .home--image{
+  object-fit: contain;
+  width: 100%;
+   z-index: -1; 
+   margin-bottom: -200px;
+   mask-image: linear-gradient(to 
+   bottom, rgba(0,0,0,1),rgba(0,0,0,0));
+} */
+
+.home--row{
+  display: flex;
+  z-index: 1;
+}
