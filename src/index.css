@@ -1,5 +1,9 @@
 body {
-  margin: 0;
+  /* background-color: red; /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(red, yellow);  */
+
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red, yellow, green, blue, black);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

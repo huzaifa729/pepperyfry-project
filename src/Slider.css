@@ -4,10 +4,11 @@
     display: flex;
 }
 
+ 
 .carousel{
      display: inline-flex; 
    justify-content: center; 
- 
+  
 }
 
 
@@ -91,6 +92,7 @@
 
   .bank{
       margin-top: 20px;
+      
   }
 
   .oyl{
@@ -104,10 +106,12 @@
   .im-sli{
       display: flex;
       margin-top: 3px;
-      margin-left: 60px;
+       margin-left: 35px; 
+    
   }
 
   .bnk-slids img{
       width: 200px;
       object-fit: cover;
+      margin: 5px;
   }

@@ -45,6 +45,12 @@ function Navbar() {
                       <span className="one">Wishlist</span>
                      </div>
 
+                     <Link to="/checkout">
+                     <div className="option">
+                       <ShoppingCartOutlinedIcon fontSize="medium"  className="icos"/>
+                      <span className="one">Cart {cart?.length}</span>
+                      </div>
+                     </Link>
                  
                      {/* <div className="option">
                       <AccountCircleSharpIcon fontSize="medium" className="icos"/>
@@ -52,12 +58,7 @@ function Navbar() {
                      </div> */}
                  </div>
 
-                 <Link to="/checkout">
-                     <div className="option">
-                       <ShoppingCartOutlinedIcon fontSize="medium"  className="icos"/>
-                      <span className="one">Cart{cart?.length}</span>
-                      </div>
-                     </Link>
+           
 
          </div>
          

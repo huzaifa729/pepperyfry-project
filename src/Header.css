@@ -2,12 +2,12 @@
 .head-nav{
    background-color: black;
     color: blanchedalmond;
-    /* margin-top: -16px; */
+     margin-top: -6px;  
     height: 52px;
       width: 100%;  
     z-index: 5;
     position: fixed;
-     /* top: 0;  */
+      /* top: 0;   */
     left: 0;
     right: 0;
 
