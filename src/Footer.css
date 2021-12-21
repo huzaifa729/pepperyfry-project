@@ -25,6 +25,7 @@
    margin-left: 8%;
    margin-top: 8%;
    display: flex;
+ 
 }
 
 .row{
@@ -32,6 +33,7 @@
     margin: 3px 6px; */
     margin-left: 8%;
     justify-content: space-around;
+   
 }
 
 .h4{
@@ -47,6 +49,7 @@
     font-size: 15px;
     list-style: none;
     padding: 3px;
+    color: white;
 }
 
 .pam{
@@ -105,7 +108,8 @@ margin: 2px 103px;
 }
 
 .maf img{
-    width: 100px;
+    width: auto;
+    height: 50px;
     object-fit: contain;
 }
 
