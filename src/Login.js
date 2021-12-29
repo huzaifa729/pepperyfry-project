@@ -1,7 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Login.css'
 
+
 function Login() {
+  const [name, setName] = useState(''); 
+  const [mobilenumber, setMobileNumber] = useState(''); 
+  const [email, setEmail] = useState(''); 
+  const [password, setPassword] = useState(''); 
+
+  const register = e => {
+     e.preventDefault();
+  }
+
     return (
         <div className="Login-page">
 
@@ -12,33 +22,33 @@ function Login() {
 
                 <div className="dan">
                     <div class="jiop">
-                        <input type="name" required />
+                        <input type="name" value={name} onChange={e => setName (e.target.value)} required />
                         <label>Name</label>
                         <span></span>
                     </div>
 
 
                     <div class="jiop">
-                        <input type="mobile-number" required />
-                        <label>Mobile Number</label>
+                        <input type="mobile-number" value={mobilenumber} onChange={e => setMobileNumber (e.target.value)} required />
+                        <label>Mobile-Number</label>
                         <span></span>
                     </div>
 
 
                     <div class="jiop">
-                        <input type="email" required />
+                        <input type="email" value={email} onChange={e => setEmail (e.target.value)} required />
                         <label>Email ID</label>
                         <span></span>
                     </div>
 
                     <div class="jiop">
-                        <input type="password" required />
+                        <input type="password" value={password} onChange={e => setPassword (e.target.value)} required />
                         <label>Password</label>
                         <span></span>
                     </div>
 
                     <div className="botn">
-                        <a href="/"><button className="btnse">Register</button></a>
+                        <button type='submit' onClick={register} className="btnse">Register</button>
                     </div>
 
 
@@ -50,7 +60,7 @@ function Login() {
 
 
                     <div className="dubs">
-                        <a href="/"><button className="buttonse">Existing User? Log in</button></a>
+                <a href="/"><button className="buttonse">Existing User? Log in</button></a>
                     </div>
 
                     <div className="fini">
