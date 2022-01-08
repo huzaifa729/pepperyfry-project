@@ -1,8 +1,11 @@
 import React, {useState} from 'react'
+import { Link, useHistory } from 'react-router-dom';
+import { auth } from './firebase';
 import './Login.css'
 
 
 function Login() {
+    const history = useHistory();
   const [name, setName] = useState(''); 
   const [mobilenumber, setMobileNumber] = useState(''); 
   const [email, setEmail] = useState(''); 
@@ -10,6 +13,15 @@ function Login() {
 
   const register = e => {
      e.preventDefault();
+
+     auth
+     .createUserWithEmailAndPassword(email,password)
+     .then((auth)=>{
+         console.log(auth);
+     })
+
+     .catch(error => alert(error.message))
+     
   }
 
     return (
@@ -50,6 +62,8 @@ function Login() {
                     <div className="botn">
                         <button type='submit' onClick={register} className="btnse">Register</button>
                     </div>
+
+                
 
 
                     <div className="idea">
