@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, {useEffect} from 'react'
 import './App.css'
 import Navbar from './Navbar'
 import Header from './Header'
@@ -18,7 +18,38 @@ import {
 } from "react-router-dom";
 import Login from './Login'
 import Checkout from './Checkout'
+import { useStateValue } from './StateProvider'
+import { auth } from './firebase';
 function App() {
+  const [{}, dispatch]= useStateValue();
+
+  useEffect(() => {
+     auth.onAuthStateChanged(
+         
+      authUser => {
+        console.log('The User Is :', authUser)
+      
+
+         if(authUser){
+           //user just logged in / user was logged in
+           dispatch(
+             {
+             type: 'SET_USER',
+             user: authUser
+             }
+           )
+         }
+         else{
+           //user logged out
+           dispatch(
+             {
+               type: 'SET_USER',
+               user: null
+             }
+           )
+         }
+        })
+  }, [])
   return (
     <Router>
     <div>
@@ -34,7 +65,7 @@ function App() {
        <Checkout/>
        </Route>
 
-       <Route path="/">
+       <Route path='/'>
     <Navbar />
         <Header/>
         <Slider/>

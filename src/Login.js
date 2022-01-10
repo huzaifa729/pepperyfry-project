@@ -11,13 +11,32 @@ function Login() {
   const [email, setEmail] = useState(''); 
   const [password, setPassword] = useState(''); 
 
+  const signIn = e => {
+    e.preventDefault();
+
+    auth
+       .signInWithEmailAndPassword(email,password)
+        .then((auth)=>{
+         
+            if(auth){
+                history.push('/')
+            }
+         })
+         
+         .catch(error => alert(error.message))
+  }
+
+
   const register = e => {
      e.preventDefault();
 
      auth
      .createUserWithEmailAndPassword(email,password)
      .then((auth)=>{
-         console.log(auth);
+         
+        if(auth){
+            history.push('/')
+        }
      })
 
      .catch(error => alert(error.message))
@@ -61,6 +80,7 @@ function Login() {
 
                     <div className="botn">
                         <button type='submit' onClick={register} className="btnse">Register</button>
+                        <button type='submit' onClick={signIn} className="btnse">Sign-In</button>
                     </div>
 
                 

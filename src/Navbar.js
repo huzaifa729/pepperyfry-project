@@ -8,7 +8,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { Link } from 'react-router-dom';
 import {useStateValue} from './StateProvider'
 function Navbar() {
- const [{cart}, dispatch] = useStateValue();
+ const [{cart,user}, dispatch] = useStateValue();
     return (
       
          <div className="header">
@@ -31,7 +31,7 @@ function Navbar() {
        
                  <Link to="/login">
                   <div className="button">
-                   <button className="btn">Login</button>
+                   <button className="btn">{user? 'Sign Out': 'Sign In'}</button>
                   </div>
                   </Link>
 
