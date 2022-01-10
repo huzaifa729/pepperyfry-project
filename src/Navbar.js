@@ -7,8 +7,15 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 // import AccountCircleSharpIcon from '@mui/icons-material/AccountCircleSharp';
 import { Link } from 'react-router-dom';
 import {useStateValue} from './StateProvider'
+import { auth } from './firebase';
 function Navbar() {
  const [{cart,user}, dispatch] = useStateValue();
+
+ const handleAuthentication = () =>{
+     if(user){
+        auth.signOut();
+     }
+ }
     return (
       
          <div className="header">
@@ -29,8 +36,8 @@ function Navbar() {
 
                  <div className="head">
        
-                 <Link to="/login">
-                  <div className="button">
+                 <Link to={!user && "/login"}>
+                  <div onClick={handleAuthentication} className="button">
                    <button className="btn">{user? 'Sign Out': 'Sign In'}</button>
                   </div>
                   </Link>
