@@ -30,3 +30,9 @@ function CheckoutProduct({id, title, price, image}) {
 }
 
 export default CheckoutProduct
+
+
+
+
+
+      
