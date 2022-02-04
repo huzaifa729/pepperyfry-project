@@ -1,26 +1,48 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import './Payment.css'
 import {useStateValue} from './StateProvider'
 import CheckoutProduct from './CheckoutProduct';
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';
 import CurrencyFormat from 'react-currency-format';
 import { getCartTotal } from './reducer';
+import axios from 'axios';
+
 function Payment() {
     const [{cart,user}, dispatch] = useStateValue();
-
     const stripe = useStripe();
     const elements = useElements();
-
     const [error, setError] = useState(null);
     const [disabled, setDisabled] = useState(true);
     const [processing, setProcessing] = useState("")
     const [succeeded, setSucceeded] = useState(false);
-    
-    const handleSubmit = e =>{
+    const [clientSecret, setClientSecret] = useState(true)
 
+
+    useEffect(()=>{
+      // generate  the special stripe secret which allows us to charge a customer
+    const   getClientSecret = async () => {
+     const response = await axios({
+       method:'post',
+       //stripe expect total amount in base currencies like rupees to paise
+       url: `/payment/create?total=${getCartTotal(cart)* 100}`
+     });
+     setClientSecret(response.data.clientSecret);
     }
+    getClientSecret();
+    },[cart])
+    
+    const handleSubmit = async (event) =>{
+        event.preventDefault();
+        setProcessing(true);
 
-    const handleChange = event =>{
+         const payload = await stripe.confirmCardPayment(clientSecret, {
+           payment_method:{
+             cart: elements.getElement(CardElement)
+           }
+         });
+    };
+
+    const handleChange = (event) =>{
         setDisabled(event.empty);
         setError(event.error ? event.error.message : "" );
     }
@@ -76,10 +98,10 @@ function Payment() {
 
                             renderText = { (value)=>(
                              <>
-                           <p>Subtotal ({cart.length} items) : <strong>{value}</strong> </p>
-                             <small className="subtotal--gift">
+                           <p>Subtotal ({cart.length} items) : <strong>{value}</strong> {" "} </p>
+                             {/* <small className="subtotal--gift">
                            <input type="checkbox" /> This order contains a gift
-                          </small> 
+                          </small>  */}
                         </>
                       )} 
                         decimalScale = {2}
@@ -90,6 +112,9 @@ function Payment() {
                    />
                         <button disabled = {processing || disabled || succeeded}> <span> { processing ? <p>Processing</p> : "Buy Now"}  </span></button>
                           </div>
+
+                          {/* Errors */}
+                          {error && <div>{error}</div>}
                       </form>
                   </div>
               </div>

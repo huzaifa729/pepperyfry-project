@@ -27,7 +27,11 @@
 
 
 .payment-address, .payment-items{
-    flex: 0.8;
+    flex: 0.4;
 }
+
+ .paymen-details{
+    flex: 0.4;
+ }
 
 
